@@ -74,3 +74,14 @@ summary.lm(simp)
 
 The overall weight of the bear based on the age has an adjusted R-square value of 0.5526 and a Residual standard error value of 81.47
 
+
+
+##  Conclusion and Ranking
+
+With all the data collected using the numerical numerical this is the ranking with all the bears RSE and ARS.
+
+1. WEIGHT~CHEST, RSE: 33.08, ARS 0.9626
+2. WEIGHT~NECK, RSE: 43.81, ARS:0.87
+3  WEIGHT~LENGTH RSE:0 61.83, ARS:0.7432
+4  WEIGHT~HEADLEN RSE: 76.41, ARS: 0.6064
+5  WEIGHT~AGE RSE:81.47, ARS:0.5526
