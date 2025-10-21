@@ -40,9 +40,18 @@ The predicted weight overall of the bears based on to the chest. Adjusted R-squa
 
 ```{r}
 simp1 <- lm(WEIGHT~LENGTH,data=bears)
-plot(WEIGHT~CHEST,data=bears)
+plot(WEIGHT~LENGTH,data=bears)
 abline(simp1)
 summary.lm(simp)
 ```
 
 The prediction of the overall weight has adjusted R-square vaule of 0.87 and a Residual Standard error of 43.91
+
+```{r}
+simp3 <- lm(WEIGHT~HEADWTH,data=bears)
+plot(WEIGHT~LENGTH,data=bears)
+abline(simp3)
+summary.lm(simp)
+```
+
+The overall weight of the bear based on the head width has an adjusted R-square value of 0.87 and a REsidual standard error vaule of  76.41
