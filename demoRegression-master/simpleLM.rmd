@@ -64,3 +64,13 @@ summary.lm(simp)
 ```
 
 The overall weight of the bear based on the head width has an adjusted R-square value of 0.69 and a REsidual standard error value of 67.81
+
+```{r}
+simp5 <- lm(WEIGHT~AGE,data=bears)
+plot(WEIGHT~AGE,data=bears)
+abline(simp5)
+summary.lm(simp)
+```
+
+The overall weight of the bear based on the age has an adjusted R-square value of 0.5526 and a Residual standard error value of 81.47
+
